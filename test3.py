@@ -1,6 +1,6 @@
 # Не удаляйте эти объекты - просто используйте
 book: dict[int, str] = {}
-PAGE_SIZE = 100
+PAGE_SIZE = 1000
 path = '/home/vtoroy/PycharmProjects/TelegramBot/book.txt'
 
 def get_part_text(original: str, start: int, size: int) -> tuple[str, int]:

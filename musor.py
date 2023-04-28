@@ -10,7 +10,7 @@ from aiogram.types import ContentType
 from aiogram import F
 
 # Вместо BOT TOKEN HERE нужно вставить токен вашего бота, полученный у @BotFather
-API_TOKEN: str = '6256912847:AAHx5kv-318zu-FjcnU_w1DkCsE7ZyaJlOs'
+API_TOKEN: str = ''
 
 # Создаем объекты бота и диспетчера
 bot: Bot = Bot(token=API_TOKEN)
@@ -111,7 +111,7 @@ async def send_echo(message: Message):
 #
 #
 # API_URL: str = 'https://api.telegram.org/bot'
-# BOT_TOKEN: str = '6256912847:AAHx5kv-318zu-FjcnU_w1DkCsE7ZyaJlOs'
+# BOT_TOKEN: str = ''
 # TEXT: str = 'Ура! Классный апдейт!'
 # MAX_COUNTER: int = 100
 #
@@ -122,7 +122,7 @@ async def send_echo(message: Message):
 
 # API_URL: str = 'https://api.telegram.org/bot'
 # API_CATS_URL: str = 'https://random.dog/woof.json'
-# BOT_TOKEN: str = '6256912847:AAHx5kv-318zu-FjcnU_w1DkCsE7ZyaJlOs'
+# BOT_TOKEN: str = ''
 # ERROR_TEXT: str = 'Здесь должна была быть картинка с котиком :('
 #
 # offset: int = -2
@@ -132,7 +132,7 @@ async def send_echo(message: Message):
 
 
 # API_URL: str = 'https://api.telegram.org/bot'
-# BOT_TOKEN: str = '6256912847:AAHx5kv-318zu-FjcnU_w1DkCsE7ZyaJlOs'
+# BOT_TOKEN: str = ''
 # offset: int = -2
 # updates: dict
 
@@ -146,8 +146,8 @@ if __name__ == '__main__':
     # url = 'https://inshorts.deta.dev/news?category=science'
     # api_response(url)
 
-# https://api.telegram.org/bot6256912847:AAHx5kv-318zu-FjcnU_w1DkCsE7ZyaJlOs/getUpdates
-# https://api.telegram.org/bot6256912847:AAHx5kv-318zu-FjcnU_w1DkCsE7ZyaJlOs/sendMessage?chat_id=5846168637&text=Привет,%20Super_Jinius!
+# https://api.telegram.org/botBOTTOKEN/getUpdates
+# https://api.telegram.org/botBOTTOKEN/sendMessage?chat_id=ADISHNIK&text=Привет,%20Super_Jinius!
 #     while counter < MAX_COUNTER:
 #
 #         print('attempt =', counter)  # Чтобы видеть в консоли, что код живет

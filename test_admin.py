@@ -4,14 +4,14 @@ from aiogram.types import Message
 
 # Вместо BOT TOKEN HERE нужно вставить токен вашего бота,
 # полученный у @BotFather
-API_TOKEN: str = '6256912847:AAHx5kv-318zu-FjcnU_w1DkCsE7ZyaJlOs'
+API_TOKEN: str = 'BOTTOKEN'
 
 # Создаем объекты бота и диспетчера
 bot: Bot = Bot(token=API_TOKEN)
 dp: Dispatcher = Dispatcher()
 
 # Список с ID администраторов бота. !!!Замените на ваш!!!
-admin_ids: list[int] = [5846168637]
+admin_ids: list[int] = [9999999999]
 
 
 # Собственный фильтр, проверяющий юзера на админа
